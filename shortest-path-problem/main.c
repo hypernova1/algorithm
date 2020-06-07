@@ -1,17 +1,13 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// 꼭지점 이름
-char vertexNameList[8] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'z' };
+#define INF 1000000
 
 // 꼭지점의 개수
-const int number = 8;
-
-// 거리가 계산되기 전의 값
-const int INF = 2000000000;
+int number = 8;
 
 // 전체 그래프 초기화
-int a[number][number] = {
+int a[8][8] = {
         { 0, 4, 3, INF, INF, INF, INF, INF },   //a
         { 4, 0, 2, 5, INF, INF, INF, INF },     //b
         { 3, 2, 0, 3, 6, INF, INF, INF},        //c
@@ -23,9 +19,9 @@ int a[number][number] = {
 };
 
 // 방문한 노드
-bool v[number];
+bool v[8];
 // 거리
-int d[number];
+int d[8];
 
 //최소 거리를 가지는 정점 반환 함수
 int getSmallIndex() {
@@ -59,6 +55,9 @@ int dijkstra(int start) {
 }
 
 int main(void) {
+    // 꼭지점 이름
+    char vertexNameList[8] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'z' };
+
     dijkstra(0);
     for (int i = 0; i < number; i++) {
         printf("%c->%c %d\n", vertexNameList[0], vertexNameList[i], d[i]);
