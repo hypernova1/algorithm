@@ -22,7 +22,7 @@ int heap[9] = { 7, 6, 5, 8, 3, 5, 9, 1, 6 };
 
 int main() {
 	// 트리 구조를 힙 구조로 바꿈
-	for (int i = 1; i <number; i++) {
+	for (int i = 1; i < number; i++) {
 		int c = i;
 		do {
 			int root = (c - 1) / 2;
@@ -36,7 +36,7 @@ int main() {
 	}
 
 	//크기를 줄여가면서 반복적으로 힙 구성
-	for (int i = number - 1; i >=0; i--) {
+	for (int i = number - 1; i >= 0; i--) {
 		int temp = heap[0];
 		heap[0] = heap[i];
 		heap[i] = temp;
