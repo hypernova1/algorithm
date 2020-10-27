@@ -31,30 +31,7 @@ int minDistance() {
     return index;
 }
 
-// 출발점을 제외한 정점 순서 출력
-void printPath(int j) {
-    // 이전 정점이 존재하지 않으면 리턴
-    if (before[j] == -1) {
-        return;
-    }
-    printPath(before[j]);
-
-    // 정점 출력
-    printf(" -> %c", vertexNames[j]);
-
-}
-
-// 표 출력 함수
-void printSolution() {
-    int src = 0;
-    printf("Vertex\t Distance\t Path");
-    for (int i = 1; i < COUNT; i++) {
-        printf("\n%c -> %c \t\t %d\t\t%c", vertexNames[src], vertexNames[i], dist[i], vertexNames[src]);
-        printPath(i);
-    }
-}
-
-void dijkstra(int graph[COUNT][COUNT], int src) {
+void dijkstra(int **graph, int src) {
     for (int i = 0; i < COUNT; i++) {
         before[0] = -1;
         dist[i] = INT_MAX;
@@ -79,8 +56,29 @@ void dijkstra(int graph[COUNT][COUNT], int src) {
             }
         }
     }
+}
 
-    printSolution();
+// 출발점을 제외한 정점 순서 출력
+void printPath(int j) {
+    // 이전 정점이 존재하지 않으면 리턴
+    if (before[j] == -1) {
+        return;
+    }
+    printPath(before[j]);
+
+    // 정점 출력
+    printf(" -> %c", vertexNames[j]);
+
+}
+
+// 표 출력 함수
+void printSolution() {
+    int src = 0;
+    printf("Vertex\t Distance\t Path");
+    for (int i = 1; i < COUNT; i++) {
+        printf("\n%c -> %c \t\t %d\t\t%c", vertexNames[src], vertexNames[i], dist[i], vertexNames[src]);
+        printPath(i);
+    }
 }
 
 int main() {
@@ -96,7 +94,9 @@ int main() {
             { INF, INF, INF, INF, INF, 7, 4, 0 }    //z
     };
 
-    dijkstra(graph, 0);
+    dijkstra(&graph, 0);
+
+    printSolution();
 
     return 0;
 }
