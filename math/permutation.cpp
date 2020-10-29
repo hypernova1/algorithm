@@ -32,6 +32,28 @@ void permutation(vector<int>& arr, int start, int end) {
     }
 }
 
+char arr[5];
+bool check[5];
+vector<char> v;
+
+void permutation(int n, int r) {
+    if (n == r) {
+        for (int i = 0; i < v.size(); i++) {
+            cout << v[i] << " ";
+        }
+        cout << endl;
+    } else {
+        for (int i = 0; i < 5; i++) {
+            if (check[i]) continue;
+            check[i] = true;
+            v.push_back(arr[i]);
+            permutation(n + 1, r);
+            v.pop_back();
+            check[i] = false;
+        }
+    }
+}
+
 int main() {
     vector<int> v;
     v.push_back(1);
