@@ -1,12 +1,17 @@
 # 정복해야 할 문제 들
 
+[참고 블로그](https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4PS-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
+
+## 학습 방법
 * 풀려고 노력은 하되 너무 오래잡고 있지 않고 1시간 이내로 답을 찾아 이해한다.
+* 틀린 이유를 적고 추후 반복해서 볼 때 같은 실수를 반복하지 않도록 한다.
+* 감이 오지 않는 다면 답안을 바로 찾아보고 이해 될 때까지 복습한다.
 
 ## 문제 구분
 
 ### 동적 계획법
 
-* 1463
+* [1463](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/9095.cpp)
 * 11726
 * 11727
 * 9095
