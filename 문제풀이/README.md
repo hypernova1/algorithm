@@ -11,10 +11,10 @@
 
 ### 동적 계획법
 
-* [1463](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/9095.cpp)
+* 1463
 * 11726
 * 11727
-* 9095
+* [9095]((https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/9095.cpp)
 * 10844
 * 11057
 * 2193
