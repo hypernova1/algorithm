@@ -11,10 +11,10 @@
 
 ### 동적 계획법
 
-* 1463
-* 11726
+* [1463](https://github.com/hypernova1/algorithm/blob/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/dynamic-programming/1463.cpp)
+* [11726](https://github.com/hypernova1/algorithm/blob/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/dynamic-programming/11726.cpp)
 * 11727
-* [9095]((https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/9095.cpp)
+* [9095](https://github.com/hypernova1/algorithm/blob/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/dynamic-programming/9095.cpp)
 * 10844
 * 11057
 * 2193
@@ -64,7 +64,7 @@
 
 ### 그리디
 
-* 11047
+* [11047](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/greedy/11047.cpp)
 * 2875
 * 10610
 * 1783
