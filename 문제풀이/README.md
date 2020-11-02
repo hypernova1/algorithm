@@ -65,7 +65,7 @@
 ### 그리디
 
 * [11047](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/greedy/11047.cpp)
-* 2875
+* [2875](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/greedy/2875.cpp)
 * 10610
 * 1783
 * 1931
