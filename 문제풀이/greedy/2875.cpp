@@ -8,6 +8,33 @@
 
 using namespace std;
 
+/*
+    적석 풀이
+        - 나는 쓸 데없이 많은 조건을 걸었지만 그냥 조건에 맞는 수만 캐치해서 작성을 했다. 훨씬 깔끔하다.
+*/
+int solution() {
+    int w, m, c;
+    scanf("%d", &w);
+    scanf("%d", &m);
+    scanf("%d", &c);
+
+    int t = 0;
+    //여학생과 남학생이 필요 인원 보다 적다면 루프를 나오면 된다.
+    while (w >= 2 && m >= 1) {
+        w -= 2;
+        m -= 1;
+        t++;
+    }
+    //남아있는 여학생과 남학생의 합이 인턴쉽에 참가할 인원보다 많을 때 까지 팀을 해체한다.
+    while (w + m < c) {
+        w += 2;
+        m += 1;
+        t--;
+    }
+
+    printf("%d", t);
+}
+
 int main(void) {
     int w, m, c;
     scanf("%d", &w);
