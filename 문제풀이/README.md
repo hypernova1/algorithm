@@ -35,8 +35,8 @@
 
 ### 그래프
 
-* 1260
-* 11724
+* [1260](https://github.com/hypernova1/algorithm/blob/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/dynamic-programming/1260.cpp)
+* [11724](https://github.com/hypernova1/algorithm/blob/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/dynamic-programming/11724.cpp)
 * 1707
 * 10451
 * 2331
