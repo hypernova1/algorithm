@@ -53,7 +53,7 @@
 
 ### 분할정복
 
-* 11728
+* [11728](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/divide-and-conquer/11728.cpp)
 * 1780
 * 11729
 * 1992
