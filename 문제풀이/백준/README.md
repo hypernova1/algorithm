@@ -107,7 +107,7 @@
 ### 기타
 
 * 2751
-* 11650
+* [11650](https://github.com/hypernova1/algorithm/tree/master/%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/sorting/11650.cpp)
 * 11651
 * 10814
 * 10825
